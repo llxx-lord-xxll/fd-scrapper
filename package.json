@@ -1,6 +1,7 @@
 {
   "name": "zgfzyx-scrapper-manager",
   "private": true,
+  "type": "module",
   "workspaces": [
     "server",
     "client"
