@@ -7,7 +7,7 @@
   "scripts": {
     "dev": "nodemon src/index.js",
     "start": "node src/index.js",
-    "vercel-build": "npm --prefix .. run vercel-build"
+    "vercel-build": "npm --prefix .. run vercel-build && rm -rf dist && cp -r ../client/dist ./dist"
   },
   "dependencies": {
     "serverless-http": "^3.2.0",
